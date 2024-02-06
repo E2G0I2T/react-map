@@ -1,0 +1,43 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #f7efe7;
+}
+
+.menu a {
+  padding-right: 30px;
+  font-size: larger;
+  line-height: 60px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.slider img {
+  object-fit: cover;
+  width: 50%;
+}
+
+.slider p {
+  position: absolute;
+  color: white;
+  font-size: 300%;
+  font-weight: 900;
+  text-align: center;
+  line-height: 30vw;
+  width: 100%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}

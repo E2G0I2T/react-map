@@ -1,0 +1,31 @@
+.map {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;;
+}
+
+.search {
+  text-align: center;
+}
+
+.search input {
+  width: 300px;
+  height: 30px;
+  padding: 0;
+  background-color: #ddf7eb;
+}
+
+.search button {
+  height: 33px;
+  background-color: #f7efe7;
+}
+
+.wrap {
+  text-align: center;
+  size: 200%;
+  background-color: #d9f6fc;
+}
+
+.wrap div {
+  margin-bottom: 10px;
+}
